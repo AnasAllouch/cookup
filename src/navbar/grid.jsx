@@ -6,6 +6,7 @@ export default function Grid() {
   const imgStyle = {
     maxWidth: '100%', // Set a maximum width for the images
     maxHeight: '250px', // Set a maximum height for the images
+    // ggtyyugev
  
   };
 

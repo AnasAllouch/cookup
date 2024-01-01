@@ -8,6 +8,7 @@ export default function Grid() {
     maxHeight: '250px', // Set a maximum height for the images
     // ggtyyugev
     // anasalloich
+    // maxxmaguish
  
   };
 

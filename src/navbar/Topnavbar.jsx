@@ -6,13 +6,13 @@ export default function Topnavbar() {
   return (
     <Navbar collapseOnSelect expand="lg" style={{backgroundColor:'#FF5733'}} variant="light">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="">
           <Image src={cookpal} alt="Logo" width="150" height="25"/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home" className="text-light" > <b>Passer en cuisine</b> </Nav.Link>
+          <Nav.Link as={NavLink} to="/cuisine">Passer en cuisine</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="#home" className="text-light" > <b>Acceuil</b> </Nav.Link>

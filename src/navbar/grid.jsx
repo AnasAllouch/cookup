@@ -6,14 +6,7 @@ export default function Grid() {
   const imgStyle = {
     maxWidth: '100%', // Set a maximum width for the images
     maxHeight: '250px', // Set a maximum height for the images
-<<<<<<< HEAD
-    
-=======
-    // ggtyyugev
-    // anasalloich
-    // maxxmaguish
->>>>>>> e5f7fe40f50fdbd1d1c7460f6e2d07e85f1e4b1d
- 
+
   };
 
   return (

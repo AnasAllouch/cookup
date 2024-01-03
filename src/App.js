@@ -6,12 +6,6 @@ import Topnavbar from './navbar/navbar';
 import {BrowserRouter as Router,Route,Routes} from'react-router-dom';
 import Aide from './Aide/aide';
 
-
-
-
- 
-
-
 function App() {
   
   return (

@@ -3,6 +3,16 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import sepa from './images/sepa.png'
 import video from './images/webvideo.mp4'
 import './Carousel.css'
+import l1 from './logos/3m.svg'
+import l2 from './logos/menshealth.svg'
+import l3 from './logos/mrbeast.svg'
+import l4 from './logos/barstool-store.svg'
+import l5 from './logos/budweiser.svg'
+import l6 from './logos/buzzfeed.svg'
+import l7 from './logos/forbes.svg'
+import l8 from './logos/macys.svg'
+
+
 
 export default function ImageSlider() {
   return (
@@ -26,11 +36,29 @@ export default function ImageSlider() {
               }}
             >Découvrir</button>
             
+             
+
+      <div className="logos">
+      <div className="logos-slide ">
+        <img src={l1} alt="3M" />
+        <img src={l2} alt="Mens Health" />
+        <img src={l3} alt="MrBeast" />
+        <img src={l4} alt="Barstool Store" />
+        <img src={l5} alt="Budweiser" />
+        <img src={l6} alt="BuzzFeed" />
+        <img src={l7} alt="Forbes" />
+        <img src={l8} alt="Macys" />
+      </div>
+      
+    </div>
+    
+    
+          
 	
           </div>
         </div>
-        <div className="col-lg-6 bg-warning d-flex align-items-center justify-content-center p-5" style={{ height: '100vh' }}>
-          <video autoPlay muted className="border border-danger rounded" style={{ maxWidth: '100%', maxHeight: '100%' }}>
+        <div className="col-lg-6 bg-warning d-flex align-items-center justify-content-center p-2" style={{ height: '70vh' }}>
+          <video autoPlay loop muted className="border border-danger rounded" style={{ maxWidth: '100%', maxHeight: '100%' ,marginBottom:'10px'}}>
             <source src={video} type="video/mp4" />
           </video>
         </div>

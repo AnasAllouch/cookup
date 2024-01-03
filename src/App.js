@@ -1,20 +1,33 @@
 
 import './App.css';
-import Blog from './navbar/blog';
-import Grid from './navbar/grid';
-import How from './navbar/how';
+import Accueil from './navbar/Acceuil';
+import Footer from './navbar/footer';
 import Topnavbar from './navbar/navbar';
-import ImageSlider from './navbar/slider';
+import {BrowserRouter as Router,Switch,Route,Routes} from'react-router-dom';
+import Aide from './Aide/aide';
 
+
+
+
+ 
 function App() {
+  
   return (
-    <div style={{backgroundColor:'#FEFEE2'}}>
-     <Topnavbar/>
-     <ImageSlider/>
-     <How/>
-     <Grid/>
-     <Blog/>
-    </div>
+    <Router>
+         <div style={{backgroundColor:'#FEFEE2'}}>
+         <Topnavbar/>
+         <Routes>
+         <Route path='/' element={<Accueil/>}/>
+         <Route path='/aide' element={<Aide/>}/>
+
+
+         </Routes>
+        <Footer/>
+
+
+       </div>
+    </Router>
+  
   );
 }
 

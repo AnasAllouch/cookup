@@ -2,9 +2,10 @@
 import './App.css';
 import Accueil from './navbar/Acceuil';
 import Footer from './navbar/footer';
-import Topnavbar from './navbar/navbar';
 import {BrowserRouter as Router,Route,Routes} from'react-router-dom';
 import Aide from './Aide/aide';
+import Topnavbar from './navbar/Topnavbar';
+import Etudiant from './etudiant';
 
 function App() {
   
@@ -15,6 +16,8 @@ function App() {
          <Routes>
          <Route path='/' element={<Accueil/>}/>
          <Route path='/aide' element={<Aide/>}/>
+         <Route path='/crud' element={<Etudiant/>}/>
+        
 
          </Routes>
         <Footer/>

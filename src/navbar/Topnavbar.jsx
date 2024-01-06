@@ -36,6 +36,8 @@ export default function Topnavbar() {
               <Nav.Link className="text-light"><Link to="/"className="text-light" style={{textDecoration:'none'}}><b>Faire les courses</b></Link></Nav.Link>
               <Nav.Link className="text-light"><b>A propos</b></Nav.Link>
               <Nav.Link className="text-light"><Link to="/aide"className="text-light" style={{textDecoration:'none'}}><b>Aide</b></Link></Nav.Link>
+              <Nav.Link className="text-light"><Link to="/aide"className="text-light" style={{textDecoration:'none'}}><b>Aide</b></Link></Nav.Link>
+
 
               <Nav.Link className="text-light">
               </Nav.Link>
